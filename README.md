@@ -64,7 +64,3 @@ Você pode ler o artigo completo e entender os fundamentos técnicos de cada exe
 🔍 **Especialistas em Segurança**
 
 ---
-
-## 📄 Licença
-
-MIT License.
