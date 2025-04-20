@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>UI/UX Security Flaws - Exemplos Interativos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    h1 {
+      color: #222;
+    }
+    .exemplo {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-left: 5px solid #007acc;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>🛡️ UI/UX Security Flaws – Exemplos Interativos</h1>
+  <p>Clique abaixo para abrir os exemplos inseguros e seguros de falhas comuns em interfaces de usuário.</p>
+
+  <div class="exemplo">
+    <h3>01 – User Enumeration</h3>
+    <a href="exemplos/exemplo01_user_enumeration/insecure.html" target="_blank">Versão Insegura</a> |
+    <a href="exemplos/exemplo01_user_enumeration/secure.html" target="_blank">Versão Segura</a>
+  </div>
+
+  <div class="exemplo">
+    <h3>02 – Role Leakage via DOM</h3>
+    <a href="exemplos/exemplo02_role_leakage_dom/insecure.html" target="_blank">Versão Insegura</a> |
+    <a href="exemplos/exemplo02_role_leakage_dom/secure.html" target="_blank">Versão Segura</a>
+  </div>
+
+  <div class="exemplo">
+    <h3>03 – Feedback Visual Exposto</h3>
+    <a href="exemplos/exemplo03_feedback_visual_exposto/insecure.html" target="_blank">Versão Insegura</a> |
+    <a href="exemplos/exemplo03_feedback_visual_exposto/secure.html" target="_blank">Versão Segura</a>
+  </div>
+
+  <div class="exemplo">
+    <h3>04 – Autocomplete em Campos Sensíveis</h3>
+    <a href="exemplos/exemplo04_autocomplete_inseguro/insecure.html" target="_blank">Versão Insegura</a> |
+    <a href="exemplos/exemplo04_autocomplete_inseguro/secure.html" target="_blank">Versão Segura</a>
+  </div>
+
+  <div class="exemplo">
+    <h3>05 – Links Admin Visíveis</h3>
+    <a href="exemplos/exemplo05_links_admin_visiveis/insecure.html" target="_blank">Versão Insegura</a> |
+    <a href="exemplos/exemplo05_links_admin_visiveis/secure.html" target="_blank">Versão Segura</a>
+  </div>
+
+  <div class="exemplo">
+    <h3>06 – Validação de CPF sem Autenticação</h3>
+    <a href="exemplos/exemplo06_validacao_cpf_sem_auth/insecure.html" target="_blank">Versão Insegura</a> |
+    <a href="exemplos/exemplo06_validacao_cpf_sem_auth/secure.html" target="_blank">Versão Segura</a>
+  </div>
+
+</body>
+</html>
